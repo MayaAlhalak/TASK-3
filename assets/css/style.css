@@ -1,0 +1,345 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: "Montserrat", sans-serif;  
+}
+header .navbar-1 , header .navbar-2{
+    width: 100%;
+    background-color: #2c3e50;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 3;
+    padding: 10px 80px;
+}
+header nav h1{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+header nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+header nav li a {
+    color: white;
+    margin: 0 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+header .hero {
+    width: 100%;
+    height: 100vh;
+    background-color: #1abc9c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header .hero .box {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+/* header .hero .box .back {
+    position: relative;
+} */
+header .hero .box .back{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #2c3e50;
+    position: relative;
+}
+header .hero .box .back img{
+    width: 100%;
+    height: 220px;
+    position: absolute;
+    bottom: 0;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+   
+}
+/* header .hero .box .back img{
+    width: 210px;
+    height: 210px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    position: relative;
+    z-index: 2;
+
+} */
+/* header .hero .box .back::after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    background-color: #2c3e50;
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+} */
+header .hero .box h2 {
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.star-1::after {
+    content: "";
+    background: white;
+    height: 2px;
+    width: 60px;
+    margin-left: 10px;
+}
+.star-1::before {
+    content: "";
+    background: white;
+    height: 2px;
+    width: 60px;
+    margin-right: 10px;
+}
+.star-1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+header .hero .box {
+    color: white;
+}
+ header .hero .box p {
+    text-align: center;
+}
+main .portfolio , main .about , main .contact {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 0;
+}
+main .portfolio {
+    margin: 30px 0;
+}
+.star::after {
+    content: "";
+    background: black;
+    height: 2px;
+    width: 60px;
+    margin-left: 10px;
+}
+.star::before {
+    content: "";
+    background: black;
+    height: 2px;
+    width: 60px;
+    margin-right: 10px;
+}
+.star {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+main .portfolio  h3 , main .about h3 , main .contact h3 {
+    font-size:30px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+main .portfolio .image-all {
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+main .portfolio img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: white
+}
+main .portfolio .image-all .imge {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1abc9c4f;
+    margin: 10px;
+}
+main .portfolio .image-all .imge-1 {
+    background-color: #ba4c63;
+}
+main .portfolio .image-all .imge-2{
+   background-color:#1fa4b6; 
+}
+main .portfolio .image-all .imge-3{
+   background-color: #130f0f; 
+}
+main .portfolio .image-all .imge-4{
+   background-color:#1d83c1; 
+}
+main .portfolio .image-all .imge-5{
+   background-color:#1037b5; 
+}
+main .portfolio .image-all .imge-6{
+   background-color:#ccb2a3; 
+}
+main .about {
+    background-color: #1abc9c;
+}
+main .about .fa-star {
+    color: white;
+}
+main .about h3 {
+    color: white;
+    margin-top: 20px;
+}
+main .about .text{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+}
+main .about .text p{
+    margin-left: 30px;
+    color: white;
+}
+main .about button {
+    padding: 10px 20px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    margin: 30px 0 ;
+    border-radius: 10px;
+}
+.fa-download {
+    color: white;
+    margin-right: 10px;
+}
+.contact .name input , .name textarea {
+    border: none ;
+    border-bottom: 1px solid #a4a5a5;
+    width: 400px;
+    margin: 15px 0;
+}
+.contact form label {
+    color: #a4a5a5;
+}
+
+.contact button {
+    color: white;
+    border: none;
+    background-color: #1abc9c ;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+footer .part-1 {
+    background-color: #2c3e50;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+footer .part-1 div {
+    width: 200px;
+    margin: 20px 25px;
+    text-align: center;
+}
+footer .part-1 div h4 {
+    color: white;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+}
+footer .part-1 div p {
+    color: white;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    height: 100px;
+}
+footer .part-1 .feace a {
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 0 2px;
+}
+footer .part-1 .feace a .fa-brands {
+    color: white;
+    padding: 5px 4px;
+}
+footer .part-1 div p a{
+    color: #1abc9c;
+}
+footer .part-2 {
+    background-color: #1a252f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer .part-2  p {
+    margin: 15px 0;
+    color: white;
+}
+
+@media(max-width:1038px) {
+    header .navbar-1 {
+        display: none;
+    }
+    header .navbar-2 {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+    header nav ul{
+        margin-top: 10px;
+    }
+
+}
+@media(max-width:800px) {
+    main .portfolio .image-all {
+        flex-direction: column;
+    }
+    main .about .text {
+        width: 300px;
+        flex-direction: column;
+    }
+    main .about .text p {
+        margin-bottom: 30px;
+    }
+        main .portfolio .image-all {
+        width: 100%;
+    }
+}
+
+@media(max-width:600px) {
+    main .portfolio .image-all {
+        flex-direction: column;
+    }
+    header .hero .box h2 {
+        font-size: 30px
+    }
+}
+@media(max-width:400px) {
+    .contact .name input, .name textarea {
+        width: 200px;
+    }
+    header .hero .box .back img , header .hero .box .back::after{
+        width: 150px;
+        height: 150px;
+    }
+}
